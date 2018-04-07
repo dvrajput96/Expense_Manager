@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.expense_manager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <original-package />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/expensemanager"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.expense_manager.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Home_page"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.About_app"
+            android:label="@string/title_activity_about_app" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Add_Expense"
+            android:label="@string/title_activity_add_expense" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Add_Income"
+            android:label="@string/title_activity_add_income" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Pending"
+            android:label="@string/title_activity_pending" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Rate_app"
+            android:label="@string/title_activity_rate_app" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Reminder"
+            android:label="@string/title_activity_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Setting"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Recent_Records"
+            android:label="@string/title_activity_recent__records" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.DateTime"
+            android:label="@string/title_activity_date_time" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.CurrencyFormat"
+            android:label="@string/title_activity_currency_format" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.FragmentOne"
+            android:label="@string/title_activity_fragment_one" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.FragmentTwo"
+            android:label="@string/title_activity_fragment_two" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.FragmentThree"
+            android:label="@string/title_activity_fragment_three" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Swipe_overview"
+            android:label="@string/title_activity_swipe_overview" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Sign_up_Sign_in"
+            android:label="@string/title_activity_sign_up__sign_in" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Forgot_Password"
+            android:label="@string/title_activity_forgot__password" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Add_Reminder"
+            android:label="@string/title_activity_add__reminder" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Database_Helper1"
+            android:label="@string/title_activity_database__helper1" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Delete_Reminder"
+            android:label="@string/title_activity_delete__reminder" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Edit_reminder_update"
+            android:label="@string/title_activity_edit_reminder_update" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Edit_reminder"
+            android:label="@string/title_activity_edit_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.View_reminder"
+            android:label="@string/title_activity_view_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Add_expense_category"
+            android:label="@string/title_activity_add_expense_category" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Add_income_category"
+            android:label="@string/title_activity_add_income_category" >
+        </activity>
+        <activity
+            android:name="com.example.expense_manager.Recent_Record1"
+            android:label="@string/title_activity_recent__record1" >
+        </activity>
+        <receiver android:name="com.example.manager.Reciever">
+            <intent-filter >
+                <action android:name="com.vishal.expence"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="NotificationService"></service>
+    </application>
+
+</manifest>

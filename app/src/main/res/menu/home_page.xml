@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        
+        />
+    
+    <item
+        android:id="@+id/action_shareapp"
+        android:orderInCategory="100"
+        android:title="ShareApp"/>
+    
+    <item
+        android:id="@+id/action_rateapp"
+        android:orderInCategory="100"
+        android:title="RateApp"/>
+     
+    <item
+        android:id="@+id/action_aboutapp"
+        android:orderInCategory="100"
+        android:title="AboutApp"/>
+     
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="Help"/>
+   
+	<item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"/>
+	
+</menu>
